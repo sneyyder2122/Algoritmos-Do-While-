@@ -10,14 +10,13 @@ public class Veintitresavoejercicio {
         do {
             int sumaDivisores = 0;
 
-            // Buscamos los divisores del número
+
             for (int i = 1; i < numero; i++) {
                 if (numero % i == 0) {
                     sumaDivisores = sumaDivisores + i;
                 }
             }
 
-            // Si la suma de divisores es igual al número, es perfecto
             if (sumaDivisores == numero && numero > 1) {
                 System.out.println(numero);
                 contadorPerfectos = contadorPerfectos + 1;
