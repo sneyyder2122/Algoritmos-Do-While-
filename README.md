@@ -1,1 +1,1 @@
-# Algoritmos-Do-While-
+# Algoritmos-Do-While-y-Algoritmos-While
